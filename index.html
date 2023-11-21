@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="eng-ca">
-  <!--Note the use of Google Fonts in this exercise (see the below line in my <head> referencing the two fonts I use in the CSS file), Google offers free web fonts and they are *really* easy to implemment, see https://fonts.google.com/ for more info-->  
+  <!--Note the use of Google Fonts in this exercise (see the below line in my <head> referencing the two fonts I use in the CSS file), Google offers free web fonts and they are *really* easy to implemment, see https://fonts.google.com/ for more info-->
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="initial-sale=1.0, width=device-width">
@@ -18,14 +18,23 @@
         p {
           width: 600px;
         }
+
         img {
           width: 800px;
         }
+
       }
 
       @media screen and (max-width: 600px) {
-        p, img {
+
+        p,
+        img {
           width: 100%
+        }
+        
+        body{
+          background-color: yellow;
+          font-size: 0.75em
         }
       }
 
